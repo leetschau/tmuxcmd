@@ -1,0 +1,11 @@
+*tmuxcmd.txt* Execute commands in the other tmux pane.
+
+============================================================
+CONTENTS                                           *tmuxcmd*
+
+Use this plugin when there are 2 panes in the current window in a tmux seesion,
+and a file is opened with vim in the lower pane.
+
+In normal mode, press <F3> to run the command in the current line
+in the other (upper) tmux pane.
+In visual mode, press <F3> will run all lines selected one by one.
